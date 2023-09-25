@@ -1,0 +1,69 @@
+
+
+body {
+    margin: 0px;
+}
+ 
+#header {
+    
+    padding: 15px; 
+    background-color:rgb(188, 188, 247);
+    margin-top: 0; 
+    
+}
+
+#popUp {
+    display: none; 
+}
+
+.close {
+    color: #7758de;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: auto;
+    margin-top: auto; 
+    padding-bottom: 5px; 
+  }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.taskList {
+    background-color: gray; 
+    padding: 10px; 
+}
+
+.taskStyle {
+    padding-left: 20px; 
+}
+
+.eachTask {
+    padding: 20px;
+}
+
+.topIcons {
+    height: 30px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 20px;
+    
+}
+.topIcons:hover,
+.topIcons.focus {
+    cursor: pointer;  
+}
+
+#addItem {
+    text-align: center;
+}
+
+
+
+

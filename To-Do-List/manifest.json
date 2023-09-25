@@ -1,0 +1,18 @@
+{
+   "manifest_version": 3, 
+   "name": "To-Do List", 
+   "version": "1.0", 
+   "description": "Add a to-do list as a widget on any website.", 
+   "icons": {
+      "16": "Images/icon-16.png",
+      "48": "Images/icon-48.png",
+      "128": "Images/icon-128.png"
+   },
+   "side_panel": {
+      "default_path": "index.html"
+   },
+   "background": {
+      "service-worker": "service-worker.js"
+   },
+   "permissions": ["sidePanel","tabs"]
+}
